@@ -13,13 +13,13 @@
       <router-link to="/gradientbar">Gradient Bar</router-link>
     </li>
     <li>
-      <router-link to="/"></router-link>
+      <router-link to="/irregularpie">Irregular Pie</router-link>
     </li>
     <li>
-      <router-link to="/"></router-link>
+      <router-link to="/radar">Radar</router-link>
     </li>
     <li>
-      <router-link to="/"></router-link>
+      <router-link to="/scatterplot">Scatterplot</router-link>
     </li>
     <li>
       <router-link to="/"></router-link>

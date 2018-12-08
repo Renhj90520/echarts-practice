@@ -5,7 +5,9 @@ import PieInfoGraphic from '@/components/PieInfoGraphic';
 import Markline from '@/components/Markline';
 import LineArea from '@/components/LineArea';
 import GradientBar from '@/components/GradientBar';
-
+import IrregularPie from '@/components/IrregularPie';
+import Radar from '@/components/Radar';
+import Scatterplot from '@/components/Scatterplot';
 Vue.use(Router);
 
 export default new Router({
@@ -29,6 +31,18 @@ export default new Router({
     {
       path: '/gradientbar',
       component: GradientBar
+    },
+    {
+      path: '/irregularpie',
+      component: IrregularPie
+    },
+    {
+      path: '/radar',
+      component: Radar
+    },
+    {
+      path: '/scatterplot',
+      component: Scatterplot
     }
   ]
 });
