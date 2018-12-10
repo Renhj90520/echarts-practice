@@ -22,7 +22,7 @@
       <router-link to="/scatterplot">Scatterplot</router-link>
     </li>
     <li>
-      <router-link to="/"></router-link>
+      <router-link to="/gaugegroup">Gauge Group</router-link>
     </li>
   </ul>
 </template>

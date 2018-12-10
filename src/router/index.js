@@ -8,6 +8,7 @@ import GradientBar from '@/components/GradientBar';
 import IrregularPie from '@/components/IrregularPie';
 import Radar from '@/components/Radar';
 import Scatterplot from '@/components/Scatterplot';
+import GaugeGroup from '@/components/GaugeGroup';
 Vue.use(Router);
 
 export default new Router({
@@ -43,6 +44,10 @@ export default new Router({
     {
       path: '/scatterplot',
       component: Scatterplot
+    },
+    {
+      path: '/gaugegroup',
+      component: GaugeGroup
     }
   ]
 });
