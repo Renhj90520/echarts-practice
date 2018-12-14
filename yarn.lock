@@ -1345,6 +1345,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+claygl@^1.2.1:
+  version "1.2.3"
+  resolved "http://r.cnpmjs.org/claygl/download/claygl-1.2.3.tgz#16359822921a9b9363257a6cba116d6cd21e8da7"
+  integrity sha1-FjWYIpIam5NjJXpsuhFtbNIejac=
+
 clean-css@4.2.x:
   version "4.2.1"
   resolved "http://r.cnpmjs.org/clean-css/download/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
@@ -2060,6 +2065,14 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
+
+echarts-gl@^1.1.1:
+  version "1.1.1"
+  resolved "http://r.cnpmjs.org/echarts-gl/download/echarts-gl-1.1.1.tgz#3df321cd4df7fee774e9a09e4dd29c9fd7e9104f"
+  integrity sha1-PfMhzU33/ud06aCeTdKcn9fpEE8=
+  dependencies:
+    claygl "^1.2.1"
+    zrender "^4.0.4"
 
 echarts@4.1.0:
   version "4.1.0"
@@ -3423,6 +3436,11 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "http://r.cnpmjs.org/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+jquery@^3.3.1:
+  version "3.3.1"
+  resolved "http://r.cnpmjs.org/jquery/download/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha1-lYzinoHJeQ8xvneS311NlfxX+8o=
 
 js-base64@^2.1.9:
   version "2.4.9"
@@ -6547,3 +6565,8 @@ zrender@4.0.4:
   version "4.0.4"
   resolved "http://r.cnpmjs.org/zrender/download/zrender-4.0.4.tgz#910e60d888f00c9599073f23758dd23345fe48fd"
   integrity sha1-kQ5g2IjwDJWZBz8jdY3SM0X+SP0=
+
+zrender@^4.0.4:
+  version "4.0.5"
+  resolved "http://r.cnpmjs.org/zrender/download/zrender-4.0.5.tgz#6e8f738971ce2cd624aac82b2156729b1c0e5a82"
+  integrity sha1-bo9ziXHOLNYkqsgrIVZymxwOWoI=

@@ -9,6 +9,8 @@ import IrregularPie from '@/components/IrregularPie';
 import Radar from '@/components/Radar';
 import Scatterplot from '@/components/Scatterplot';
 import GaugeGroup from '@/components/GaugeGroup';
+import ThreedChart from '@/components/ThreedChart';
+
 Vue.use(Router);
 
 export default new Router({
@@ -48,6 +50,10 @@ export default new Router({
     {
       path: '/gaugegroup',
       component: GaugeGroup
+    },
+    {
+      path: '/threedchart',
+      component: ThreedChart
     }
   ]
 });

@@ -24,6 +24,9 @@
     <li>
       <router-link to="/gaugegroup">Gauge Group</router-link>
     </li>
+    <li>
+      <router-link to="/threedchart">3D Chart</router-link>
+    </li>
   </ul>
 </template>
 <script>

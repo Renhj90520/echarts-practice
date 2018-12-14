@@ -5,6 +5,7 @@ import App from './App';
 import router from './router';
 import 'normalize.css';
 import * as echarts from 'echarts';
+import 'echarts-gl';
 Vue.config.productionTip = false;
 
 Object.defineProperty(Vue.prototype, '$echarts', { value: echarts });
